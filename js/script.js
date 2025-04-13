@@ -22,9 +22,15 @@ const clickHandler = function (text) {
 };
 
 // Declare brainSkills array below this line
+const brainSkills = [
+    "CSS",
+    "HTML",
+    "Front-End Architecture"
+];
 
 document.addEventListener("DOMContentLoaded", function (event) {
-
-   document.getElementById('cocktail-section').innerHTML = dance(jersey);
+    console.log('brainSkills.length', brainSkills.length);
+   
+    document.getElementById('cocktail-section').innerHTML = dance(jersey);
 
 });
